@@ -1,3 +1,9 @@
-body {
+@font-face {
+  font-family: "MyFont";
+  src: url("./Profilfont-Regular-Web.woff2") format("woff2");
+  src: url("./Profilfont-Regular-Web.woff") format("woff");
+}
 
+.content {
+  font-family: "MyFont";
 }
